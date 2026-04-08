@@ -12,19 +12,16 @@ int main()
             printf(" ");
         }
 
-        char c;
-        if (i % 2 == 1)
-        {
-            c = '#';
-        }
-        else
-        {
-            c = '-';
+
         }
         int cnt = 2 * i - 1;
         for (int j = 0; j < cnt; j++)
         {
+<<<<<<< HEAD
             printf("%c", c);
+=======
+            printf("%c", ch);
+>>>>>>> 39386d0 (Added Assingnment 3)
         }
 
         printf("\n");
@@ -36,6 +33,7 @@ int main()
         {
             printf(" ");
         }
+<<<<<<< HEAD
         char c;
         if (i % 2 == 1)
         {
@@ -44,12 +42,29 @@ int main()
         else
         {
             c = '-';
+=======
+
+        char ch;
+        if (i % 2 == 1)
+        {
+            ch = '#';
+        }
+        else
+        {
+            ch = '-';
+>>>>>>> 39386d0 (Added Assingnment 3)
         }
         int cnt = 2 * i -1;
         for (int i = 0; i < cnt; i++)
         {
+<<<<<<< HEAD
             printf("%c", c);
         }
+=======
+            printf("%c", ch);
+        }
+
+>>>>>>> 39386d0 (Added Assingnment 3)
         printf("\n");
     }
 
