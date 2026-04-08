@@ -49,5 +49,6 @@ int main()
              << arr[i].id << " "
              << arr[i].math_marks << " "
              << arr[i].eng_marks << endl;
+             int arr
     }
 }
